@@ -1,0 +1,90 @@
+Uncaught runtime errors:
+×
+ERROR
+Failed to fetch
+TypeError: Failed to fetch
+    at s.fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js:1:3217)
+    at window.fetch (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)
+    at chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1746
+    at new Promise (<anonymous>)
+    at fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1717)
+    at getCoinGeckoData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176442:28)
+    at getCoinData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176556:26)
+    at fetchAllPrices (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:169219:80)
+ERROR
+Failed to fetch
+TypeError: Failed to fetch
+    at s.fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js:1:3217)
+    at window.fetch (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)
+    at chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1746
+    at new Promise (<anonymous>)
+    at fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1717)
+    at getCoinGeckoData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176442:28)
+    at getCoinData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176556:26)
+    at fetchAllPrices (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:169219:80)
+ERROR
+Failed to fetch
+TypeError: Failed to fetch
+    at s.fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js:1:3217)
+    at window.fetch (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)
+    at chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1746
+    at new Promise (<anonymous>)
+    at fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1717)
+    at getCoinGeckoData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176442:28)
+    at getCoinData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176556:26)
+    at fetchAllPrices (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:169219:80)
+ERROR
+Failed to fetch
+TypeError: Failed to fetch
+    at s.fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js:1:3217)
+    at window.fetch (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)
+    at chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1746
+    at new Promise (<anonymous>)
+    at fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1717)
+    at getCoinGeckoData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176442:28)
+    at getCoinData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176556:26)
+    at fetchAllPrices (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:169219:80)
+ERROR
+Failed to fetch
+TypeError: Failed to fetch
+    at s.fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js:1:3217)
+    at window.fetch (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)
+    at chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1746
+    at new Promise (<anonymous>)
+    at fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1717)
+    at getCoinGeckoData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176442:28)
+    at getCoinData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176556:26)
+    at fetchAllPrices (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:169219:80)
+ERROR
+Failed to fetch
+TypeError: Failed to fetch
+    at s.fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js:1:3217)
+    at window.fetch (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)
+    at chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1746
+    at new Promise (<anonymous>)
+    at fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1717)
+    at getCoinGeckoData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176442:28)
+    at getCoinData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176556:26)
+    at fetchAllPrices (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:169219:80)
+ERROR
+Failed to fetch
+TypeError: Failed to fetch
+    at s.fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js:1:3217)
+    at window.fetch (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)
+    at chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1746
+    at new Promise (<anonymous>)
+    at fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1717)
+    at getCoinGeckoData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176442:28)
+    at getCoinData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176556:26)
+    at fetchAllPrices (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:169219:80)
+ERROR
+Failed to fetch
+TypeError: Failed to fetch
+    at s.fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js:1:3217)
+    at window.fetch (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)
+    at chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1746
+    at new Promise (<anonymous>)
+    at fetch (chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js:1:1717)
+    at getCoinGeckoData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176442:28)
+    at getCoinData (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:176556:26)
+    at fetchAllPrices (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:169219:80)

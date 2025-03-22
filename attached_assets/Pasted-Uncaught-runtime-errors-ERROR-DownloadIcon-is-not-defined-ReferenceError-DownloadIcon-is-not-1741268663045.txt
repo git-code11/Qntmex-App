@@ -1,0 +1,41 @@
+Uncaught runtime errors:
+×
+ERROR
+DownloadIcon is not defined
+ReferenceError: DownloadIcon is not defined
+    at TransactionHistory (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:174330:92)
+    at renderWithHooks (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:133572:22)
+    at mountIndeterminateComponent (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:137543:17)
+    at beginWork (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:138846:20)
+    at HTMLUnknownElement.callCallback (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:123828:18)
+    at Object.invokeGuardedCallbackDev (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:123872:20)
+    at invokeGuardedCallback (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:123929:35)
+    at beginWork$1 (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:143827:11)
+    at performUnitOfWork (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:143075:16)
+    at workLoopSync (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:142998:9)
+ERROR
+DownloadIcon is not defined
+ReferenceError: DownloadIcon is not defined
+    at TransactionHistory (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:174330:92)
+    at renderWithHooks (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:133572:22)
+    at mountIndeterminateComponent (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:137543:17)
+    at beginWork (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:138846:20)
+    at HTMLUnknownElement.callCallback (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:123828:18)
+    at Object.invokeGuardedCallbackDev (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:123872:20)
+    at invokeGuardedCallback (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:123929:35)
+    at beginWork$1 (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:143827:11)
+    at performUnitOfWork (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:143075:16)
+    at workLoopSync (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:142998:9)
+ERROR
+DownloadIcon is not defined
+ReferenceError: DownloadIcon is not defined
+    at TransactionHistory (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:174330:92)
+    at renderWithHooks (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:133572:22)
+    at mountIndeterminateComponent (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:137543:17)
+    at beginWork (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:138846:20)
+    at beginWork$1 (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:143805:18)
+    at performUnitOfWork (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:143075:16)
+    at workLoopSync (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:142998:9)
+    at renderRootSync (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:142971:11)
+    at recoverFromConcurrentError (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:142463:24)
+    at performSyncWorkOnRoot (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:142672:24)

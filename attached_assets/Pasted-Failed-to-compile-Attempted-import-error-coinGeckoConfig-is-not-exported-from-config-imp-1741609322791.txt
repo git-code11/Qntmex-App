@@ -1,0 +1,43 @@
+Failed to compile.
+
+Attempted import error: 'coinGeckoConfig' is not exported from './config' (imported as 'coinGeckoConfig').
+ERROR in ./src/api.js 9:18-33
+export 'coinGeckoConfig' (imported as 'coinGeckoConfig') was not found in './config' (possible exports: ALCHEMY_API_KEY, API_BASE_URL, COINGECKO_API_KEY, ETHERSCAN_API_KEY, FEATURES, alchemyApiKey, coinGeckoApiKey, default, etherscanApiKey, firebaseConfig, getApiConfig, getEthereumConfig, isDevelopment, isProduction, logAvailableConfigs)
+
+ERROR in ./src/api.js 9:46-61
+export 'coinGeckoConfig' (imported as 'coinGeckoConfig') was not found in './config' (possible exports: ALCHEMY_API_KEY, API_BASE_URL, COINGECKO_API_KEY, ETHERSCAN_API_KEY, FEATURES, alchemyApiKey, coinGeckoApiKey, default, etherscanApiKey, firebaseConfig, getApiConfig, getEthereumConfig, isDevelopment, isProduction, logAvailableConfigs)
+
+ERROR in ./src/api.js 9:76-98
+export 'coinGeckoConfig' (imported as 'coinGeckoConfig') was not found in './config' (possible exports: ALCHEMY_API_KEY, API_BASE_URL, COINGECKO_API_KEY, ETHERSCAN_API_KEY, FEATURES, alchemyApiKey, coinGeckoApiKey, default, etherscanApiKey, firebaseConfig, getApiConfig, getEthereumConfig, isDevelopment, isProduction, logAvailableConfigs)
+
+ERROR in ./src/api.js 10:16-29
+export 'coinCapConfig' (imported as 'coinCapConfig') was not found in './config' (possible exports: ALCHEMY_API_KEY, API_BASE_URL, COINGECKO_API_KEY, ETHERSCAN_API_KEY, FEATURES, alchemyApiKey, coinGeckoApiKey, default, etherscanApiKey, firebaseConfig, getApiConfig, getEthereumConfig, isDevelopment, isProduction, logAvailableConfigs)
+
+ERROR in ./src/api.js 10:42-55
+export 'coinCapConfig' (imported as 'coinCapConfig') was not found in './config' (possible exports: ALCHEMY_API_KEY, API_BASE_URL, COINGECKO_API_KEY, ETHERSCAN_API_KEY, FEATURES, alchemyApiKey, coinGeckoApiKey, default, etherscanApiKey, firebaseConfig, getApiConfig, getEthereumConfig, isDevelopment, isProduction, logAvailableConfigs)
+
+ERROR in ./src/api.js 10:70-90
+export 'coinCapConfig' (imported as 'coinCapConfig') was not found in './config' (possible exports: ALCHEMY_API_KEY, API_BASE_URL, COINGECKO_API_KEY, ETHERSCAN_API_KEY, FEATURES, alchemyApiKey, coinGeckoApiKey, default, etherscanApiKey, firebaseConfig, getApiConfig, getEthereumConfig, isDevelopment, isProduction, logAvailableConfigs)
+
+ERROR in ./src/api.js 11:16-29
+export 'openSeaConfig' (imported as 'openSeaConfig') was not found in './config' (possible exports: ALCHEMY_API_KEY, API_BASE_URL, COINGECKO_API_KEY, ETHERSCAN_API_KEY, FEATURES, alchemyApiKey, coinGeckoApiKey, default, etherscanApiKey, firebaseConfig, getApiConfig, getEthereumConfig, isDevelopment, isProduction, logAvailableConfigs)
+
+ERROR in ./src/api.js 11:42-55
+export 'openSeaConfig' (imported as 'openSeaConfig') was not found in './config' (possible exports: ALCHEMY_API_KEY, API_BASE_URL, COINGECKO_API_KEY, ETHERSCAN_API_KEY, FEATURES, alchemyApiKey, coinGeckoApiKey, default, etherscanApiKey, firebaseConfig, getApiConfig, getEthereumConfig, isDevelopment, isProduction, logAvailableConfigs)
+
+ERROR in ./src/api.js 11:70-90
+export 'openSeaConfig' (imported as 'openSeaConfig') was not found in './config' (possible exports: ALCHEMY_API_KEY, API_BASE_URL, COINGECKO_API_KEY, ETHERSCAN_API_KEY, FEATURES, alchemyApiKey, coinGeckoApiKey, default, etherscanApiKey, firebaseConfig, getApiConfig, getEthereumConfig, isDevelopment, isProduction, logAvailableConfigs)
+
+ERROR in ./src/api.js 26:21-41
+export 'openSeaConfig' (imported as 'openSeaConfig') was not found in './config' (possible exports: ALCHEMY_API_KEY, API_BASE_URL, COINGECKO_API_KEY, ETHERSCAN_API_KEY, FEATURES, alchemyApiKey, coinGeckoApiKey, default, etherscanApiKey, firebaseConfig, getApiConfig, getEthereumConfig, isDevelopment, isProduction, logAvailableConfigs)
+
+ERROR in ./src/api.js 76:28-50
+export 'coinGeckoConfig' (imported as 'coinGeckoConfig') was not found in './config' (possible exports: ALCHEMY_API_KEY, API_BASE_URL, COINGECKO_API_KEY, ETHERSCAN_API_KEY, FEATURES, alchemyApiKey, coinGeckoApiKey, default, etherscanApiKey, firebaseConfig, getApiConfig, getEthereumConfig, isDevelopment, isProduction, logAvailableConfigs)
+
+ERROR in ./src/api.js 94:35-55
+export 'coinCapConfig' (imported as 'coinCapConfig') was not found in './config' (possible exports: ALCHEMY_API_KEY, API_BASE_URL, COINGECKO_API_KEY, ETHERSCAN_API_KEY, FEATURES, alchemyApiKey, coinGeckoApiKey, default, etherscanApiKey, firebaseConfig, getApiConfig, getEthereumConfig, isDevelopment, isProduction, logAvailableConfigs)
+
+ERROR in ./src/services/etherscanService.js 5:26-48
+export 'etherscanConfig' (imported as 'etherscanConfig') was not found in '../config' (possible exports: ALCHEMY_API_KEY, API_BASE_URL, COINGECKO_API_KEY, ETHERSCAN_API_KEY, FEATURES, alchemyApiKey, coinGeckoApiKey, default, etherscanApiKey, firebaseConfig, getApiConfig, getEthereumConfig, isDevelopment, isProduction, logAvailableConfigs)
+
+webpack compiled with 13 errors

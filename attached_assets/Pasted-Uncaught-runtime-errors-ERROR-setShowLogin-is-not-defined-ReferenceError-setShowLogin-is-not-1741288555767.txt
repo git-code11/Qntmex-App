@@ -1,0 +1,28 @@
+Uncaught runtime errors:
+×
+ERROR
+setShowLogin is not defined
+ReferenceError: setShowLogin is not defined
+    at onCloseComplete (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:170369:11)
+    at https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:8747:24
+    at https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:870:14
+    at commitHookEffectListMount (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:140180:30)
+    at commitPassiveMountOnFiber (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:141673:17)
+    at commitPassiveMountEffects_complete (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:141645:13)
+    at commitPassiveMountEffects_begin (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:141635:11)
+    at commitPassiveMountEffects (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:141625:7)
+    at flushPassiveEffectsImpl (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:143508:7)
+    at flushPassiveEffects (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:143461:18)
+ERROR
+setShowLogin is not defined
+ReferenceError: setShowLogin is not defined
+    at onCloseComplete (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:170369:11)
+    at https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:8747:24
+    at https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:870:14
+    at commitHookEffectListMount (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:140180:30)
+    at commitPassiveMountOnFiber (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:141673:17)
+    at commitPassiveMountEffects_complete (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:141645:13)
+    at commitPassiveMountEffects_begin (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:141635:11)
+    at commitPassiveMountEffects (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:141625:7)
+    at flushPassiveEffectsImpl (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:143508:7)
+    at flushPassiveEffects (https://096840ea-518d-4668-a1c7-7fc722a9b54f-00-1nqnkfu49y8hz.kirk.replit.dev/static/js/bundle.js:143461:18)

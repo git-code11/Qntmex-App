@@ -1,0 +1,63 @@
+Here is what i need you to do now, so here is the plan i got fron gpt that you need to follow or pick ideas of what need to be done.
+
+I want to convert this app into apk
+
+GPT: Yes, Expo can help you convert your React-based crypto wallet app into an APK. Expo is a framework for building React Native apps that supports both iOS and Android. You can use Expo EAS (Expo Application Services) Build to generate an APK without needing Android Studio. 
+
+ Steps to Convert Your App to an APK with Expo:
+1. **Install Expo CLI**
+   Run this command in your terminal to install Expo globally:
+   ```sh
+   npm install -g expo-cli
+   ```
+
+2. **Initialize Your Project**
+   If your app is not yet a React Native project, create a new one:
+   ```sh
+   expo init my-crypto-wallet
+   ```
+   Otherwise, navigate to your existing project.
+
+3. **Login to Expo**
+   ```sh
+   expo login
+   ```
+   If you don’t have an Expo account, create one at [Expo Dev](https://expo.dev/).
+
+4. **Install EAS CLI**
+   ```sh
+   npm install -g eas-cli
+   ```
+
+5. **Configure EAS**
+   Run:
+   ```sh
+   eas build:configure
+   ```
+   This will set up the necessary files for Expo to handle the build.
+
+6. **Build the APK**
+   Run:
+   ```sh
+   eas build -p android --profile preview
+   ```
+   This will generate an APK for testing. If you want a **Play Store-ready APK**, use:
+   ```sh
+   eas build -p android --profile production
+   ```
+
+7. **Download the APK**
+   After the build is completed, Expo will provide a link to download your APK.
+
+---
+
+ How to Direct Bolt AI to Do This:
+Since Bolt AI is an AI-powered code assistant, you can give it a structured prompt like:
+
+> "Help me convert my React project into a React Native app using Expo. I want to generate an APK using EAS Build. Guide me through installing Expo, configuring EAS, and building the APK."
+
+Or, if you want it to generate commands, say:
+
+> "Generate a step-by-step guide with all the necessary commands to set up Expo, configure EAS, and build my app as an APK."
+
+Let me know if you need further clarification! 🚀

@@ -1,0 +1,41 @@
+Failed to compile.
+
+SyntaxError: /home/runner/workspace/src/App.js: 'import' and 'export' may only appear at the top level. (110:14)
+  108 |             try {
+  109 |               // Import service and create wallet
+> 110 |               import { createWallet } from './services/alchemyService';
+      |               ^
+  111 |               console.log("Creating new wallet with alchemyService");
+  112 |               const newWallet = await createWallet();
+  113 |               localStorage.setItem(`wallet_${user.uid}`, JSON.stringify(newWallet));
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/runner/workspace/src/App.js: 'import' and 'export' may only appear at the top level. (110:14)
+
+  108 |             try {
+  109 |               // Import service and create wallet
+> 110 |               import { createWallet } from './services/alchemyService';
+      |               ^
+  111 |               console.log("Creating new wallet with alchemyService");
+  112 |               const newWallet = await createWallet();
+  113 |               localStorage.setItem(`wallet_${user.uid}`, JSON.stringify(newWallet));
+    at instantiate (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:359:12)
+    at Object.raise (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:3339:19)
+    at Object.parseStatementContent (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:14744:18)
+    at Object.parseStatement (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:14643:17)
+    at Object.parseStatement (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:5827:24)
+    at Object.parseBlockOrModuleBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:15286:25)
+    at Object.parseBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:15277:10)
+    at Object.parseBlock (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:15261:10)
+    at Object.parseTryStatement (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:15142:23)
+
+ERROR in ./src/services/alchemyService.js 3:0-47
+Module not found: Error: Can't resolve 'alchemy-sdk' in '/home/runner/workspace/src/services'
+
+ERROR in [eslint] 
+src/App.js
+  Line 110:14:  Parsing error: 'import' and 'export' may only appear at the top level. (110:14)
+
+webpack compiled with 3 errors
+^[[1;2A^[[1;2A^[[1;2A^[[1;2A^[[1;2A^[[1;2A^[[1;2A^[[1;2A^[[1;2A^[[1;2A^[[1;2A^[[1;2A^[[1;2A^[[1;2A

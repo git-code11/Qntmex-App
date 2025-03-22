@@ -1,0 +1,23 @@
+run = "node server.js"
+entrypoint = "server.js"
+
+[nix]
+channel = "stable-22_11"
+
+[env]
+PORT = "3000"
+
+[deployment]
+run = ["sh", "-c", "node server.js"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
+
+[[ports]]
+localPort = 19000
+externalPort = 3000
+
+[workflows]
+runButton = "Run App"

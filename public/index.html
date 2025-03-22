@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Secure Crypto Wallet"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/cbw.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Crypto Wallet</title>
+    <script>
+      /* CRITICAL: Direct Firebase Config for Authentication */
+      window.__FIREBASE_CONFIG__ = {
+        apiKey: "AIzaSyAXRaee-MKecRMD54lr8labcVT-Urp5e_g",
+        authDomain: "qntm-43b47.firebaseapp.com",
+        projectId: "qntm-43b47",
+        storageBucket: "qntm-43b47.appspot.com",
+        messagingSenderId: "822203561811",
+        appId: "1:822203561811:web:da7949e62b1b3d4423d3a6"
+      };
+
+      // Also set individual environment variables for backward compatibility
+      window.REACT_APP_FIREBASE_API_KEY = "AIzaSyAXRaee-MKecRMD54lr8labcVT-Urp5e_g";
+      window.REACT_APP_FIREBASE_AUTH_DOMAIN = "qntm-43b47.firebaseapp.com";
+      window.REACT_APP_FIREBASE_PROJECT_ID = "qntm-43b47";
+      window.REACT_APP_FIREBASE_STORAGE_BUCKET = "qntm-43b47.appspot.com";
+      window.REACT_APP_FIREBASE_MESSAGING_SENDER_ID = "822203561811";
+      window.REACT_APP_FIREBASE_APP_ID = "1:822203561811:web:da7949e62b1b3d4423d3a6";
+
+      // Set other API keys
+      window.REACT_APP_ETHERSCAN_API_KEY = "NSZCD6S4TKVJ2EQKK89MWK152SQHXVQBV1";
+      window.REACT_APP_ALCHEMY_API_KEY = "hWnKsjkh6BtBYOyOjU_vvtm0tp3reDLX";
+      window.REACT_APP_COINGECKO_API_KEY = "CG-gD4Cdq35pAmBAvjznnKhvs2z";
+
+      // Ensure window.process exists for React apps
+      if (!window.process) {
+        window.process = { env: {} };
+      }
+
+      // Set process.env variables for React
+      if (window.process && window.process.env) {
+        // Ensure process.env is initialized
+        window.process = window.process || {};
+        window.process.env = window.process.env || {};
+
+        // Set Firebase config values
+        window.process.env.REACT_APP_FIREBASE_API_KEY = window.REACT_APP_FIREBASE_API_KEY || 'AIzaSyAA2qk988KzbMrOzgnGVNxZMqXVJHyaOPo';
+        window.process.env.REACT_APP_FIREBASE_AUTH_DOMAIN = window.REACT_APP_FIREBASE_AUTH_DOMAIN || 'crypto-wallet-c67aa.firebaseapp.com';
+        window.process.env.REACT_APP_FIREBASE_PROJECT_ID = window.REACT_APP_FIREBASE_PROJECT_ID || 'crypto-wallet-c67aa';
+        window.process.env.REACT_APP_FIREBASE_STORAGE_BUCKET = window.REACT_APP_FIREBASE_STORAGE_BUCKET || 'crypto-wallet-c67aa.appspot.com';
+        window.process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID = window.REACT_APP_FIREBASE_MESSAGING_SENDER_ID || '863370373958';
+        window.process.env.REACT_APP_FIREBASE_APP_ID = window.REACT_APP_FIREBASE_APP_ID || '1:863370373958:web:9bf5915bb6c1ee471c6a5a';
+      }
+
+      // Log to verify Firebase config is properly set in window
+      console.log("Firebase config initialized in window:", {
+        directConfigSet: !!window.__FIREBASE_CONFIG__,
+        apiKeySet: !!window.REACT_APP_FIREBASE_API_KEY,
+        processEnvSet: !!(window.process && window.process.env && window.process.env.REACT_APP_FIREBASE_API_KEY)
+      });
+    </script>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <!-- Firebase Config Fallback -->
+    <script>
+      window.__FIREBASE_CONFIG__ = {
+        apiKey: "AIzaSyAXRaee-MKecRMD54lr8labcVT-Urp5e_g",
+        authDomain: "qntm-43b47.firebaseapp.com",
+        projectId: "qntm-43b47",
+        storageBucket: "qntm-43b47.appspot.com",
+        messagingSenderId: "822203561811",
+        appId: "1:822203561811:web:da7949e62b1b3d4423d3a6"
+      };
+      console.log("Firebase config set in index.html");
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

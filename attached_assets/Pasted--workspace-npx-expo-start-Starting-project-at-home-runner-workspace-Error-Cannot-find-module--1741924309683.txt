@@ -1,0 +1,38 @@
+~/workspace$ npx expo start 
+Starting project at /home/runner/workspace
+Error: Cannot find module 'metro/src/lib/TerminalReporter'
+Require stack:
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/TerminalReporter.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/MetroTerminalReporter.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/instantiateMetro.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/MetroBundlerDevServer.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/server/DevServerManager.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/startAsync.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/index.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/bin/cli
+Error: Cannot find module 'metro/src/lib/TerminalReporter'
+Require stack:
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/TerminalReporter.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/MetroTerminalReporter.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/instantiateMetro.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/MetroBundlerDevServer.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/server/DevServerManager.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/startAsync.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/index.js
+- /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/bin/cli
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/TerminalReporter.js:8:48)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/MetroTerminalReporter.js:11:25)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)

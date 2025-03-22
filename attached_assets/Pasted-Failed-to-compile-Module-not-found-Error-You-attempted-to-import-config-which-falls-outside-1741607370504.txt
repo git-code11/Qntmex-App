@@ -1,0 +1,123 @@
+Failed to compile.
+
+Module not found: Error: You attempted to import ../config which falls outside of the project src/ directory. Relative imports outside of src/ are not supported.
+You can either move it inside src/, or add a symlink to it from project's node_modules/.
+ERROR in ./src/Login.js 110:8-27
+Module not found: Error: You attempted to import ../config which falls outside of the project src/ directory. Relative imports outside of src/ are not supported.
+You can either move it inside src/, or add a symlink to it from project's node_modules/.
+
+ERROR in ./src/components/ErrorBoundary.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/runner/workspace/src/components/ErrorBoundary.js: Identifier 'React' has already been declared. (64:7)
+
+  62 |
+  63 | export default ErrorBoundary;
+> 64 | import React from 'react';
+     |        ^
+  65 | import { Box, Text, Button, VStack, Code } from '@chakra-ui/react';
+  66 |
+  67 | class ErrorBoundary extends React.Component {
+    at constructor (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowScopeHandler.checkRedeclarationInScope (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:1555:19)
+    at FlowScopeHandler.declareName (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:1521:12)
+    at FlowScopeHandler.declareName (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:1622:11)
+    at FlowParserMixin.declareNameFromIdentifier (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:7476:16)
+    at FlowParserMixin.checkIdentifier (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:7472:12)
+    at FlowParserMixin.checkLVal (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:7413:12)
+    at FlowParserMixin.finishImportSpecifier (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13898:10)
+    at FlowParserMixin.parseImportSpecifierLocal (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:5605:31)
+    at FlowParserMixin.maybeParseDefaultImportSpecifier (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:14001:12)
+    at FlowParserMixin.parseImportSpecifiersAndAfter (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13872:29)
+    at FlowParserMixin.parseImport (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13868:17)
+    at FlowParserMixin.parseStatementContent (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12514:27)
+    at FlowParserMixin.parseStatementLike (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12270:25)
+    at FlowParserMixin.parseTopLevel (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:5909:28)
+    at FlowParserMixin.parse (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:14120:10)
+    at parse (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:14154:38)
+    at parser (/home/runner/workspace/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/runner/workspace/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/runner/workspace/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/runner/workspace/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/runner/workspace/node_modules/gensync/index.js:261:32)
+    at /home/runner/workspace/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/runner/workspace/node_modules/gensync/index.js:223:11)
+    at /home/runner/workspace/node_modules/gensync/index.js:189:28
+    at /home/runner/workspace/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+    at /home/runner/workspace/node_modules/gensync/index.js:113:33
+    at step (/home/runner/workspace/node_modules/gensync/index.js:287:14)
+    at /home/runner/workspace/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/runner/workspace/node_modules/gensync/index.js:223:11)
+
+ERROR in ./src/config.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/runner/workspace/src/config.js: Identifier 'firebaseConfig' has already been declared. (90:13)
+
+  88 |
+  89 | // Firebase Configuration (single source of truth)
+> 90 | export const firebaseConfig = {
+     |              ^
+  91 |   apiKey: "AIzaSyAA2qk988KzbMrOzgnGVNxZMqXVJHyaOPo",
+  92 |   authDomain: "crypto-wallet-c67aa.firebaseapp.com",
+  93 |   projectId: "crypto-wallet-c67aa",
+    at constructor (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowScopeHandler.checkRedeclarationInScope (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:1555:19)
+    at FlowScopeHandler.declareName (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:1521:12)
+    at FlowScopeHandler.declareName (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:1622:11)
+    at FlowParserMixin.declareNameFromIdentifier (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:7476:16)
+    at FlowParserMixin.checkIdentifier (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:7472:12)
+    at FlowParserMixin.checkLVal (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:7413:12)
+    at FlowParserMixin.parseVarId (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13052:10)
+    at FlowParserMixin.parseVarId (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:5698:11)
+    at FlowParserMixin.parseVar (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13027:12)
+    at FlowParserMixin.parseVarStatement (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseExportDeclaration (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13566:17)
+    at FlowParserMixin.parseExportDeclaration (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:5342:20)
+    at FlowParserMixin.maybeParseExportDeclaration (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13525:31)
+    at FlowParserMixin.parseExport (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:13450:29)
+    at FlowParserMixin.parseStatementContent (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12519:27)
+    at FlowParserMixin.parseStatementLike (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:12270:25)
+    at FlowParserMixin.parseTopLevel (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:5909:28)
+    at FlowParserMixin.parse (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:14120:10)
+    at parse (/home/runner/workspace/node_modules/@babel/parser/lib/index.js:14154:38)
+    at parser (/home/runner/workspace/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/runner/workspace/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/runner/workspace/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/runner/workspace/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/runner/workspace/node_modules/gensync/index.js:261:32)
+    at /home/runner/workspace/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/runner/workspace/node_modules/gensync/index.js:223:11)
+
+ERROR in [eslint] 
+src/components/ErrorBoundary.js
+  Line 64:7:  Parsing error: Identifier 'React' has already been declared. (64:7)
+
+src/config.js
+  Line 90:13:  Parsing error: Identifier 'firebaseConfig' has already been declared. (90:13)
+
+webpack compiled with 4 errors
